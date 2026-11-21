@@ -14,6 +14,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
+          flutter-version: '3.35.7'
       - name: Android klasorunu olustur
         run: flutter create --platforms=android --project-name sayfa_paylas .
       - name: Internet izni ver
